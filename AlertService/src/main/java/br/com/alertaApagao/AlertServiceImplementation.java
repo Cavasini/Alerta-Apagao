@@ -15,12 +15,12 @@ public class AlertServiceImplementation implements AlertService{
     @Override
     public void sendSMS(String message, String phone) {
         NotificationApi api = new NotificationApi(
-                "53mzty7qxvmp7n9iae6hhdk7rv",
-                "ig6y7ois7n27sjlqk9sz4h4l5hqyh3r0auz1d0ithzyh1quoc8v2xfy31y"
+                "9lt3nmc9blhv4ma2f3paqn9dz7",
+                "dac8hwlnc3nt52yzh9j18ibumnaugw4cm4hl4ufrtzi7j4zcxdajx0gja4"
         );
 
         // Create user
-        User user = new User("matheus.lopeszzz71@gmail.com")
+        User user = new User("mattheuscavasini@gmail.com")
                 .setNumber(phone); // Please replace our test number with a valid number to receive this message.;
 
         // Create merge tags
