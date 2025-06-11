@@ -11,7 +11,7 @@ public class WeatherApiClient {
     private final RestTemplate restTemplate = new RestTemplate();
 
     public WeatherResponse getWeather(double lat, double lon){
-        String url = "https://api.weatherapi.com/v1/current.json?q=" + lat + " " + lon + "&key=f7f0899e241244d6a23205931252805";
+        String url = "https://api.weatherapi.com/v1/current.json?q=" + lat + " " + lon + "&key=ee071585ce4840c08ba213958251106";
         RestTemplate restTemplate = new RestTemplate();
 
         return restTemplate.getForObject(url, WeatherResponse.class);
